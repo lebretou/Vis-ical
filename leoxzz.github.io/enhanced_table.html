@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+</style>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h2>Enhanced Table Examples</h2>
+
+<table>
+  <caption>Table displaying two lines</caption>
+  <tr>
+    <th>Element</th>
+    <th>x1 / x</th>
+    <th>y1 / y</th>
+    <th>x2</th>
+    <th>y2</th>
+    <th>stroke-width</th>
+    <th>stroke-color</th>
+    <th>fill</th>
+  </tr>
+  <tr>
+    <td>line</td>
+    <td>3cm</td>
+    <td>0.8cm</td>
+    <td>3cm</td>
+    <td>5.2cm</td>
+    <td>4</td>
+    <td>black</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>line</td>
+    <td>9cm</td>
+    <td>2.45cm</td>
+    <td>9cm</td>
+    <td>3.55cm</td>
+    <td>4</td>
+    <td>black</td>
+    <td>-</td>
+  </tr>
+</table>
+
+<table>
+    <caption>Table displaying two Circles</caption>
+    <tr>
+      <th>Element</th>
+      <th>x / x1 / cx</th>
+      <th>y / y1 / cy</th>
+      <th>r</th>
+      <th>fill</th>
+      <th>stroke-width</th>
+      <th>stroke-color</th>
+    </tr>
+    <tr>
+      <td>circle</td>
+      <td>3cm</td>
+      <td>3cm</td>
+      <td>2.8cm</td>
+      <td>url(#pattern)</td>
+      <td>3</td>
+      <td>black</td>
+    </tr>
+    <tr>
+      <td>circle</td>
+      <td>9cm</td>
+      <td>3cm</td>
+      <td>1.6565cm</td>
+      <td>url(#pattern)</td>
+      <td>3</td>
+      <td>black</td>
+    </tr>
+  </table>
+
+  <table>
+    <caption>Table displaying two points in a common coordinate system (rectangular box)</caption>
+    <tr>
+      <th>Element</th>
+      <th>x / cx</th>
+      <th>y / cy</th>
+      <th>width</th>
+      <th>height</th>
+      <th>r</th>
+      <th>fill</th>
+      <th>stroke-width</th>
+      <th>stroke-color</th>
+    </tr>
+    <tr>
+      <td>rect</td>
+      <td>1.5cm</td>
+      <td>1.83cm</td>
+      <td>3cm</td>
+      <td>3cm</td>
+      <td>-</td>
+      <td>white</td>
+      <td>3</td>
+      <td>black</td>
+    </tr>
+    <tr>
+      <td>rect</td>
+      <td>7.5cm</td>
+      <td>0.8162cm</td>
+      <td>3cm</td>
+      <td>3cm</td>
+      <td>-</td>
+      <td>white</td>
+      <td>3</td>
+      <td>black</td>
+    </tr>
+    <tr>
+      <td>circle</td>
+      <td>2.0cm</td>
+      <td>4.23cm</td>
+      <td>-</td>
+      <td>-</td>
+      <td>0.1cm</td>
+      <td>black</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>circle</td>
+      <td>8.0cm</td>
+      <td>1.4162cm</td>
+      <td>-</td>
+      <td>-</td>
+      <td>0.1cm</td>
+      <td>black</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+  </table>
+  
+      <table>
+        <caption>Table displaying two curves</caption>
+        <tr>
+          <th>Element</th>
+          <th>Fill</th>
+          <th>x / x1</th>
+          <th>y / y1</th>
+          <th>Path Data (d)</th>
+          <th>Stroke Width</th>
+          <th>Stroke Color</th>
+          <th>Transform</th>
+        </tr>
+        <tr>
+          <td>path</td>
+          <td>none</td>
+          <td>-</td>
+          <td>-</td>
+          <td>M 56.4,112.8 C 112.8,0.0 112.8,0.0 169.2,112.8</td>
+          <td>3</td>
+          <td>black</td>
+          <td>rotate(90,112.8,112.8)</td>
+        </tr>
+        <tr>
+          <td>path</td>
+          <td>none</td>
+          <td>-</td>
+          <td>-</td>
+          <td>M 282.0,112.8 C 338.4,50.76 338.4,50.76 394.8,112.8</td>
+          <td>3</td>
+          <td>black</td>
+          <td>rotate(-55,338.4,112.8)</td>
+        </tr>
+      </table>
+      
+  
+    <button onclick="window.location.href = 'index.html';" style="margin-top: 50px;">Back</button>
+
+</body>
+</html>

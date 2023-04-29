@@ -1,0 +1,6 @@
+./python/areas/example.svg
+./python/position_unaligned/example.svg
+./python/curvatures/example.svg
+./python/position_aligned/example.svg
+./python/texture/example.svg
+./python/lines/example.svg
